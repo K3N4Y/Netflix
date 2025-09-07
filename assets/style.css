@@ -1,0 +1,82 @@
+h1{
+    color: white;
+    background-color: black;
+}
+
+p{
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+    letter-spacing: 0.5px;
+}
+
+body{
+    background-color: black;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1px;
+}
+
+.titulo-principal {
+    color: white;
+    font-size: 60px;
+    letter-spacing: -4px;
+    margin: 0;
+}
+
+h3{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.contenedor-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: -10px;
+}
+
+h5 {
+    color: white;
+}
+
+.logo-img{
+    width: 30px;
+    height: 25px;
+    margin-left: -5px;
+}
+
+main-img{
+    mask-image: -o-linear-gradient(
+        black 80%,
+        transparent
+    );
+}
+
+.imagen-fija {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 150px;
+}
+.contenedor-imagen {
+  position: relative; /* Necesario para que la imagen se posicione dentro */
+  height: 400px;
+  background-color: #eee;
+}
+
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
